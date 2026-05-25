@@ -32,3 +32,4 @@ These submissions were officially dispatched on May 9, 2026, at 13:11 UTC and fo
 <img width="295" height="585" alt="image" src="https://github.com/user-attachments/assets/4c4c001c-5b17-45ee-bb7d-3c6fda27e9c4" /> (5)
 <img width="295" height="585" alt="image" src="https://github.com/user-attachments/assets/b6d9ad36-ad05-421c-b68c-b84e0904b3f8" /> (6)  
 <img width="295" height="585" alt="image" src="https://github.com/user-attachments/assets/630c60f0-b62f-4c6a-b283-a23c72a62c30" /> (7)
+<img width="295" height="585" alt="image" src="https://github.com/user-attachments/assets/7b332a49-5fb3-4be3-ba87-e101fb26af35" /> (8)
