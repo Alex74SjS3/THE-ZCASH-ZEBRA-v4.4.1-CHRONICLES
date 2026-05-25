@@ -1,48 +1,26 @@
 # THE-ZCASH-ZEBRA-v4.4.1-CHRONICLES
 THE ZEBRA v4.4.1 CHRONICLES: INDEPENDENT AUDIT ON VULNERABILITY MANAGEMENT MALPRACTICE AND SILENT EXCLUSION
-1. THE EVALUATION PARADOX AND PLAGIARISM OF AUTHORSHIPThe core of this matter rests on a communicative dynamic that raises severe concerns regarding the good faith of the three core maintainers involved (Kris Nuttycombe, Dariaemma, and Pili).Official logs document a striking asymmetry. While independent researcher Alex74-SjS3 was met with categorical rejections—privately labeling the disclosure as a "low-quality, zero-impact issue" to disqualify it from the Bug Bounty program—the internal team secretly moved within hours to seal the codebase with an emergency patch. The fact that this patch was subsequently released to the public as a "Critical Security Fix" (Zebra v4.4.1) to safeguard network stability demonstrates a pattern that goes beyond a mere engineering misjudgment. It indicates a deliberate choice to withhold professional credit from an external contributor while absorbing the intellectual ownership of the discovery into the core department.2. PROCEDURAL ANOMALIES AND LOG BACKDATINGCompounding the severity of the situation is a sequence of administrative adjustments made to public repositories and communication channels, executed in a timeline that suggests an attempt to alter the historical record:The Chat Denials & Demands: Initial interactions show a systematic attempt to downplay the consensus risk, framing it as a mere mempool policy issue
+1.### 1. THE EVALUATION PARADOX AND PLAGIARISM OF AUTHORSHIPThe core of this matter rests on a communicative dynamic that raises severe concerns regarding the good faith of the three core maintainers involved (Kris Nuttycombe, Dariaemma, and Pili).
+Official logs document a striking asymmetry. While independent researcher Alex74-SjS3 was met with categorical rejections—privately labeling the disclosure as a "low-quality, zero-impact issue" to disqualify it from the Bug Bounty program—the internal team secretly moved within hours to seal the codebase with an emergency patch. The fact that this patch was subsequently released to the public as a "Critical Security Fix" (Zebra v4.4.1) to safeguard network stability demonstrates a pattern that goes beyond a mere engineering misjudgment. It indicates a deliberate choice to withhold professional credit from an external contributor while absorbing the intellectual ownership of the discovery into the core department.
+2. PROCEDURAL ANOMALIES AND LOG BACKDATINGCompounding the severity of the situation is a sequence of administrative adjustments made to public repositories and communication channels, executed in a timeline that suggests an attempt to alter the historical record:
+• The Chat Denials & Demands: Initial interactions show a systematic attempt to downplay the consensus risk, framing it as a mere mempool policy issue ⁽¹⁾ ⁽²⁾, while demanding a live testnet attack vector ⁽³⁾ ⁽⁴⁾ despite a proven mathematical logic failure already submitted ⁽⁵⁾.
+• The Final Rejection & Pivot: Even after receiving definitive comparative breakdowns, leadership officially terminated the discussion with explicit rejections ⁽⁶⁾ ⁽⁷⁾ ⁽⁸⁾, calling the research "low quality" ⁽⁹⁾ ⁽¹⁰⁾. Yet, minutes later, internal logs show them scrambling to verify the exact block rejection logic raised by the researcher ⁽¹¹⁾ ⁽¹²⁾, before dropping into complete radio silence ⁽¹³⁾ ⁽¹⁴⁾.
+• Public Repository Discrepancies: Frontend release notes and forum announcements were manually indexed with a deployment date of May 4th—two days prior to the researcher's initial contact. However, the cryptographic, immutable logs of the Git protocol conclusively prove that the fix was finalized only on May 7th ⁽¹⁵⁾, directly following the deterministic Proof of Concept documents sent by Alex74-SjS3.
+• Context Manipulation: The subsequent administrative decision to rename the secure Signal channel from an explicit "zip-317 Consensus split" to a dismissive "Delfinoalex74 mempool" ⁽¹⁶⁾, alongside unusual delayed team access logs ⁽¹⁷⁾, indicates a post-hoc effort to hide the true severity of the security risk discussed.
+3. INSTITUTIONAL UNRESPONSIVENESS (THE SILENCE OF LEADERSHIP)The handling of this case is further aggravated by absolute radio silence from the ecosystem's executive and administrative channels. In an effort to resolve the matter through the proper governance pathways, Alex74-SjS3 twice submitted comprehensive technical files and logs to the leadership of Zcash.
+Formal disclosures were delivered to the following institutional addresses:
+• grants@zcashcommunity.grants
+• security@zcash.foundation.org
+• grants@zfnd.org
+• jack@zfnd.org
+• board@zcashfoundation.org 
+These submissions were officially dispatched on May 9, 2026, at 13:11 UTC and followed up with an updated evidentiary packet on May 21, 2026, at 19:44 UTC. Despite the critical nature of the documentation and the direct inclusion of highest-level oversight addresses (including the Foundation's Board and Security team), no response or acknowledgment of receipt has been provided to date. This institutional void raises severe questions regarding executive oversight over core technical teams.
 
- three maintainers involved, along with the silent institutional bodies, are encouraged to provide a transparent accounting of the motives behind this handling of the disclosure. An independent review of the internal audit trails is strongly requested, ensuring that research integrity and fair disclosure policies remain the absolute bedrock of the Foundation.📂 EVIDENCE LABELS INDEX (FOR SCREENSHOT ATTACHMENTS)
-FORENSIC AUDIT REPORT: ZEC-SEC-2026-X
-Subject: Backdating Evidence & Ethical Breach regarding Zebra v4.4.1
-Lead Investigator: Alex74-SjS3.
-Target: Zcash Foundation / Zebra Dev Team
-Security Advisory ID: GHSA-pvmv-cwg8-v6c8
-Status: CRITICAL EVIDENCE
+ 4. A WARNING SIGN FOR THE ZCASH ECOSYSTEMZcash built its global reputation on rigorous cryptographic principles, academic integrity, and the invaluable trust of its community. Independent security researchers are the frontline defense for a decentralized network; the bridge of trust between core maintainers and external experts relies entirely on the guarantee that contributions are analyzed with scientific objectivity and rewarded fairly.
+ 5.
+ 6. When official security infrastructures and corporate emails are utilized first to discourage a researcher, then to secretly integrate their technical work while blocking their reward, and finally to build a wall of silence, it creates a dangerous precedent. This conduct harms not just an individual professional, but threatens to alienate the broader research community, fostering an environment of distrust that stands in direct opposition to the collaborative open-source ethos that defines Zcash.
+  7. CONCLUSIONThis memorandum is shared not to prompt personal disputes, but to uphold the professional standard that the community deserves. The three maintainers involved, along with the silent institutional bodies, are encouraged to provide a transparent accounting of the motives behind this handling of the disclosure. An independent review of the internal audit trails is strongly requested, ensuring that research integrity and fair disclosure policies remain the absolute bedrock of the Foundation.
 
-1. THE IMMUTABLE PROOF: THE PROTOCOL STRING
-In the Git version control system, every modification carries an immutable "fingerprint" known as the Strict ISO 8601 Timestamp. While forum posts can be manually backdated, the Committer Date within the GitHub protocol is protected by the cryptographic hash chain.
-
-Zebra v4.4.1 Patch Protocol Trace:
-COMMIT_HASH: 1a2b3c4d5e6f7g8h9i0j... (Specific to GHSA-pvmv-cwg8-v6c8)
-AUTHOR_DATE: 2026-05-06T11:13:00Z (Matches Researcher's initial report)
-COMMITTER_DATE: 2026-05-07T04:42:15Z (Actual time of database sealing)
-PROTOCOL_ID: SIG-SHA256-MANIPULATION-DETECTION
-
-Technical Analysis:
-The protocol trace indicates that the fix was officially sealed in the repository on May 7, 2026, at 04:42:15 UTC. Any public statement claiming a release date of "May 4th" is technically false and represents a manual post-hoc manipulation of the public record.
-
-2. COMPARATIVE FORENSIC TIMELINE
-- Researcher Initial Report: 2026-05-06T11:13:00Z | CRITICAL (10/10) - PoC Submitted
-- Researcher "Smoking Gun": 2026-05-07T00:28:45Z | Deterministic Proof of Fork
-- Kris N. Private Denial: 2026-05-07T02:54:12Z | "ZERO-IMPACT / LOW QUALITY"
-- Actual Code Commit (The Fix): 2026-05-07T04:42:15Z | CRITICAL SECURITY PATCH
-- Official Forum Post (Fake): 2026-05-04T21:06:00Z | BACKDATED / MANIPULATED
-APPENDIX 5: INSTITUTIONAL ATTRIBUTION & INTERNAL SECURITY TEAM INVOLVEMENT
-Investigation Update: May 20, 2026
-Subject: Identification of Internal Personnel Involved in the Release Pipeline
-
-Identified Accounts:
-Kris Nuttycombe (Lead Developer / Signatory)
-Dariaemma (Zcash Security Team / Reviewer)
-Pili (@zcash / Foundation Security Infrastructure)
-
-1. TECHNICAL AUDIT OF THE REVIEW AND APPROVAL CHAIN
-The cryptographic verification of the repository's commit logs and the metadata adjustments documented in the previous sections indicate a coordinated process within the official @zcash Security Team. The data pipeline shows direct administrative participation by the three core maintainers:
-- Review and Validation (Dariaemma): Repository logs show that this account provided the mandatory review and approval for the validation patch, validating the timeline sequence prior to the public indexing of the security advisory.
-- Infrastructure Coordination (Pili): Access logs confirm that this account managed the cross-repository synchronization and administrative permissions under the official @zcash security umbrella, ensuring the technical alignment of the repository data.
-
-2. AUDIT FINDINGS REGARDING ACCOUNTABILITY
-The direct documentation of these accounts (Kris, Dariaemma, and Pili) establishes that the modifications to the release timeline and the subsequent descriptions were executed with the full visibility and administrative backing of the internal security department.
-From an auditing standpoint, the involvement of the entire core security team indicates an institutional decision to manage the vulnerability timeline internally. By utilizing administrative overrides to backdate release tags and alter technical descriptions, the team effectively bypassed standard disclosure transparency protocols, directly impacting the independent verification process required for the resolution of the Bug Bounty claim.
-<img width="1080" height="2340" alt="image" src="https://github.com/user-attachments/assets/7e8b26e6-3935-451c-a2e2-870d0571c93c" />
+  EVIDENCE LABELS INDEX & FORENSIC AUDIT LOGS:
+  
+  
