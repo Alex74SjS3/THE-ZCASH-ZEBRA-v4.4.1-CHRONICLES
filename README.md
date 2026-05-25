@@ -45,3 +45,4 @@ The cryptographic verification of the repository's commit logs and the metadata 
 2. AUDIT FINDINGS REGARDING ACCOUNTABILITY
 The direct documentation of these accounts (Kris, Dariaemma, and Pili) establishes that the modifications to the release timeline and the subsequent descriptions were executed with the full visibility and administrative backing of the internal security department.
 From an auditing standpoint, the involvement of the entire core security team indicates an institutional decision to manage the vulnerability timeline internally. By utilizing administrative overrides to backdate release tags and alter technical descriptions, the team effectively bypassed standard disclosure transparency protocols, directly impacting the independent verification process required for the resolution of the Bug Bounty claim.
+<img width="1080" height="2340" alt="image" src="https://github.com/user-attachments/assets/7e8b26e6-3935-451c-a2e2-870d0571c93c" />
