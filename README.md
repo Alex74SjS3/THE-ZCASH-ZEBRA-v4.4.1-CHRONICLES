@@ -20,7 +20,10 @@ These submissions were officially dispatched on May 9, 2026, at 13:11 UTC and fo
  5.
  6. When official security infrastructures and corporate emails are utilized first to discourage a researcher, then to secretly integrate their technical work while blocking their reward, and finally to build a wall of silence, it creates a dangerous precedent. This conduct harms not just an individual professional, but threatens to alienate the broader research community, fostering an environment of distrust that stands in direct opposition to the collaborative open-source ethos that defines Zcash.
   7. CONCLUSIONThis memorandum is shared not to prompt personal disputes, but to uphold the professional standard that the community deserves. The three maintainers involved, along with the silent institutional bodies, are encouraged to provide a transparent accounting of the motives behind this handling of the disclosure. An independent review of the internal audit trails is strongly requested, ensuring that research integrity and fair disclosure policies remain the absolute bedrock of the Foundation.
-
+                                                                                                                                    For now, and for now ONLY...
+                                                                                                                                               Alex74-SjS3
+                                                                                                                                        
   EVIDENCE LABELS INDEX & FORENSIC AUDIT LOGS:
+  
   
   
